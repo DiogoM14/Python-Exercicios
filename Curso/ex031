@@ -1,0 +1,8 @@
+km = float(input('Quantos quilometros vai viajar? '))
+
+if km <= 200:
+    preço = km*0.50
+else:
+    preço = km*0.45
+
+print('Irá ter de pagar {:.2f}'.format(preço))
